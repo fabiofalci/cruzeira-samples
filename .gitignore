@@ -1,0 +1,13 @@
+logs/
+bin/
+target/
+.settings/
+.project
+.classpath
+*.iml
+*.ipr
+*.iws
+*.jar
+*_jsp.java
+cruzeira-sample/db/
+.idea/

@@ -17,11 +17,11 @@
 		<mvc:async-support default-timeout="10"
 			task-executor="asyncTaskExecutor">
 			<mvc:callable-interceptors>
-				<bean class="org.cruzeira.netty.AsyncInterceptor" />
+				<bean class="org.cruzeira.spring.AsyncInterceptor" />
 			</mvc:callable-interceptors>
 		</mvc:async-support>
 	</mvc:annotation-driven>
 
-	<bean id="asyncTaskExecutor" class="org.cruzeira.server.QueueExecutor" />
+	<bean id="asyncTaskExecutor" class="org.cruzeira.spring.ThreadLocalAsyncExecutor" />
 
 </beans>

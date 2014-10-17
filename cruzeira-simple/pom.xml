@@ -39,7 +39,7 @@
 					<arguments>
 						<argument>-classpath</argument>
 						<classpath />
-						<argument>org.cruzeira.server.Bootstrap</argument>
+						<argument>org.cruzeira.Bootstrap</argument>
 					</arguments>
 				</configuration>
 			</plugin>
